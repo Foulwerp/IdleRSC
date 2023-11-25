@@ -13,7 +13,7 @@ import models.entities.MapPoint;
 import orsc.ORSCharacter;
 
 public class FoulRunecraft extends IdleScript {
-  public static final Controller c = Main.getController();
+  public final Controller c = Main.getController();
   private JFrame frame;
   private String runtime, action;
   private long start;
